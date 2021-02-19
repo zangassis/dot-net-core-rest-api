@@ -14,6 +14,4 @@ Building a .Net Core api with SQL Server
 
 7 - Execute the GET/POST by Postman
 
-**Use the Manual Images**
-
-![ManualImages](https://github.com/zangassis/dot-net-core-rest-api/blob/main/Documents/Images/ManualImages.png?raw=true)
+**To facilitate use the image manual 🙋‍♂️**
