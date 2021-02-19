@@ -17,4 +17,4 @@ Building a .Net Core api with SQL Server
 
 8 - Use the Manual Images
 
-[![ManualImages](https://github.com/zangassis/dot-net-core-rest-api/blob/main/Documents/Images/ManualImages.png?raw=true)]
+![ManualImages](https://github.com/zangassis/dot-net-core-rest-api/blob/main/Documents/Images/ManualImages.png?raw=true)[1000x1000]
