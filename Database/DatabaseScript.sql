@@ -1,21 +1,5 @@
 
 DECLARE @TableName VARCHAR(50) = 'Sensor'
-DECLARE @DataBase VARCHAR(50) = 'mypersonaldb'
-
-IF (NOT EXISTS (SELECT 
-				* 
-		    FROM
-				sys.databases 
-            WHERE
-				name = @DataBase))
-	BEGIN
-		CREATE DATABASE [mypersonaldb]
-		PRINT 'Database: ' + @DataBase + ' successfully created!'
-	END
-ELSE
-	BEGIN
-		PRINT 'Database: ' + @DataBase +  ' already exists!'
-	END
 
 IF (NOT EXISTS (SELECT 
 				* 
@@ -24,8 +8,6 @@ IF (NOT EXISTS (SELECT
             WHERE
 				TABLE_NAME = @TableName))
 	BEGIN
-		USE [mypersonaldb]
-
 		SET ANSI_NULLS ON
 
 		SET QUOTED_IDENTIFIER ON
@@ -47,5 +29,5 @@ IF (NOT EXISTS (SELECT
 	END
 ELSE
 	BEGIN
-		PRINT 'Table: ' + @TableName +  ' already exists in the database: ' + @DataBase
+		PRINT 'Table: ' + @TableName +  ' already exists!' 
 	END
