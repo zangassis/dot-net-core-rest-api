@@ -3,7 +3,7 @@ Building a .Net Core api with SQL Server
 
 1 - Fork or clone this project;
 2 - Execute the database script in Sql Server Management Studio;
-https://raw.githubusercontent.com/zangassis/dot-net-core-rest-api/main/Documents/Manual/1%20-%20CreateDatabase.png
+[![CreateDatabase](https://raw.githubusercontent.com/zangassis/dot-net-core-rest-api/main/Documents/Manual/1%20-%20CreateDatabase.png)]()
 
 3 - Configure the Appsetings.json with your database configuration;
 https://github.com/zangassis/dot-net-core-rest-api/blob/main/Documents/Manual/2%20-%20AppsetingsConfiguration.png?raw=true
