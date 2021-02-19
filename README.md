@@ -1,4 +1,4 @@
-🚀 Building a .Net Core api with SQL Server 🚀
+Building a .Net Core api with SQL Server 🚀
 
 1 - Fork or clone this project;
 
