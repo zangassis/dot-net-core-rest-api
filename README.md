@@ -1,10 +1,10 @@
 Building a .Net Core api with SQL Server 🚀
 
-1 - Fork or clone this project;
+1 - Fork or clone this project
 
-2 - Execute the database script in Sql Server Management Studio;
+2 - Execute the database script in Sql Server Management Studio
 
-3 - Configure the Appsetings.json with your database configuration;
+3 - Configure the Appsetings.json with your database configuration
 
 4 - Execute the Api project
 
